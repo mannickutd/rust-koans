@@ -50,7 +50,7 @@ fn duplicate_values() {
     let mut hm = HashMap::new();
     hm.insert("Sorcerer's Stone", "Harry Potter");
     hm.insert("Goblet of Fire", "Harry Potter");
-    assert_eq!(hn[&"Sorcerer's Stone"], hn[&"Goblet of Fire"]);
+    assert_eq!(hm[&"Sorcerer's Stone"], hm[&"Goblet of Fire"]);
 }
 
 // You can create an iterator of all of the keys in a HashMap
